@@ -2,7 +2,7 @@ class Advertisment{
     public String advertSlogan = "buy here";
     protected double kpi = 3.8;
     private double secretIndex = 0.07;
-    double comission = 1;
+    short comission = 1;
     double yourBudget(double yourMoney) {
         return secretIndex * yourMoney - comission;
     }
